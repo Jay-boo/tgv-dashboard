@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ensai-2023-373710",
+  "private_key_id": "a9a3d886cdd71032b26290a5376f04bd06a46aad",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqKDhwj3CqSXBB\nczbTC+ZJELTIDpNR7ZfAc1YFv8xXdhpCWwtKYv8601vAQx8x+6hU1CjwHE74KTEE\nu6ZafEhSFGWKBda0PdcVElzP+GCQ5OtjNIIkJ1gEEIi8a3wMa4ccIEL6Ozd5caEn\nVE0E09sqBFOsz6coYq8K/sfRFroQKyrQob+RfGCQNiZ6z2i2n5OzZPGmZsgzvqXw\n023AH6dGCnanYRou2MV1Q6oled3VAAnnydesOz6h2ExHk1scdClYg3FIs59aMPvE\n1BbjXy9+RfmRMy+NZD2pRnzKlM66ZS3WzvD9fS/v+3n70uj/p9KtX6TX+Irw2Ba3\nSuiiy95/AgMBAAECggEAKkVtqADqc1NlMM1HjGyDXBlrX9vHG25T6bp9X1ZDlGLB\nqURm7KblUx7Yx02lfUxQiCpgtS3DLIFHLS7U59vCN6nbg8tpiENooFJ8fintC3Hj\nTDTqM8MWaYQWBAELwyYfXYxiNzno0SG6cEPQEmfzJWAHzYGUvEKvy6J5z2a++G7p\nJIsFuNERNpfMHUiHdTUzQ3XLvGYzDOsf5KqqR2Ii8X+sRk3r2Wsdlf4QRD2fw0IP\nJEI9wfEzDEnryIbnkhQU5RWnSdDEpFRkPord+vhCFlocSepeBwbBsV4aiIOgBDNM\nWD6l2Udw3dV72vwdJvKwEgN060EMKqnbV7hxmWcIwQKBgQDX81TfS/T9F3mOv2fE\nYgH8z/J4A2KU4RPAGbl/TQpqW0HZ9nddxwTgpNJu31NEDTszNlwuLyJLaxnBWd7/\nQT6i9/SjNPPpGP0Y2HbGakCsQCOPx/q/hPKO113CnQ4F6Mp0mxDdpGU8+iczWAj2\nzl26W01/uTYve/uJhm+0w0hWoQKBgQDJtsIwAoBcCiKM/cvqvv4oawRru9xxilPG\nYU4eqHmA+cZF1TdgvvRA4CvyvDEChM3He62gXa6QCS1U8Qb0ZMRMQlwC1slf+fUX\nkVplr+m+FmWrdtEyGzS93aBmK9t2+pdtwBcaQH80jkxA+MrfIl65cpRa8otVN/p5\nUpJRS3rBHwKBgQCuCkwyknLlrw+mvhgRK7PSXn1Zv9CpkCRsw86+DAcC5H1T/tEA\n4S7LJcr61D21MLyvb3YnOpF3Gt/s9lNEgP7MNO4SwtB44kzIw1wmWOe6aw6+CDvM\nMoeSG3xTJmRw2saf54FWP/HfjPQe6yp+Tp83W/I/p7NF3bRBh/lrQ59/QQKBgQCM\nZ+xPYs5aQqu+HEM+yWc8VxGitAdD+RdLNRwddwPsZPBAV6POcdyu89tjgN9Uc4CR\nZGN9BvilRd4KDCPdJe8FbgOB7mQJrIGPwBt+QK6hJBHtAi2nhQx3RLeLpueCr/eL\n63OpUE+7E3m8l/EO1Gu/BiSCEeYukWKF5JX4hGOT3QKBgHcRiY79OQDJxZLdVcTl\njCwHvrINkMbXX16oo/UZOLJVMrj2jXugLk8gmMuJNlAm9BJDc7ZM1Pa8cPuY3tHf\n9TKp1MXvgk1QEeIh26ay84rbLCxwkiSXQ2SqtwbuA0DAJnWWcDgk8JUubXBKXauX\nAl5XfF5ePRlh/lXdlWon/Fqc\n-----END PRIVATE KEY-----\n",
+  "client_email": "jean-alain@ensai-2023-373710.iam.gserviceaccount.com",
+  "client_id": "114467613781285943967",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jean-alain%40ensai-2023-373710.iam.gserviceaccount.com"
+}
