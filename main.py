@@ -14,25 +14,10 @@ import numpy as np
 storage_credentials = service_account.Credentials.from_service_account_file('ensai-2023-373710-4e0c22304fd9.json')
 client = bigquery.Client(credentials=storage_credentials)
 """
-# La SNCF Toujour en retard ? :train:
+# La SNCF Toujour en retard ? 	:train2:
+By Nous
 """
 
-st.markdown("""
-        <style>
-               .css-18e3th9 {
-                    padding-top: 0rem;
-                    padding-bottom: 10rem;
-                    padding-left: 5rem;
-                    padding-right: 5rem;
-                }
-               .css-1d391kg {
-                    padding-top: 3.5rem;
-                    padding-right: 1rem;
-                    padding-bottom: 3.5rem;
-                    padding-left: 1rem;
-                }
-        </style>
-        """, unsafe_allow_html=True)
 
 
 query = """
@@ -64,13 +49,31 @@ t1=pd.DataFrame({'Train':df_count_time.index, "Nombre train à l'heure":df_count
 t2=pd.DataFrame({'Train':df_count_retard.index, 'Nombre train en retard':df_count_retard.values})
 t3=pd.merge(t1,t2,on="Train")
 #st.dataframe(pd.DataFrame(df_count).transpose())
-st.bar_chart(t3,x="Train",y=["Nombre train à l'heure","Nombre train en retard"])
+"""
+### Nombre de trains à l'heures et en retards :steam_locomotive:
+""" 
+st.bar_chart(t3,x="Train",y=["Nombre train à l'heure","Nombre train en retard"],width=480, height=900)
 
 t4=pd.DataFrame({'Train':df_sum_retard.index, 'Somme du retard':df_sum_retard.values})
 t5=pd.merge(t4,t2,on="Train")
 t5["Moyenne retard"] = t5["Somme du retard"]/t5["Nombre train en retard"]
 
 st.dataframe(t5)
+
+"""
+### Nombre de train en retards par jour :train:
+"""
+options = df['name'].unique().tolist()
+opt=st.multiselect('Train(s) à visualiser',options)
+df_retard2=df[df["name"].isin(opt)]
+test = df_retard2.groupby(["jour"])['jour'].count()  
+
+t6=pd.DataFrame({'Jour':test.index , "Nombre train en retard": test.values})
+
+
+st.line_chart(t6,x='Jour',y='Nombre train en retard')
+
+
 
 # with st.echo(code_location='below'):
 #     total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
