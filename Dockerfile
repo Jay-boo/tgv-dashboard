@@ -5,6 +5,7 @@ RUN pip install --upgrade pip
 WORKDIR /app
 
 COPY requirements.txt .
+COPY ensai-2023-373710-216f5609f399.json .
 
 RUN pip install --no-cache-dir -r  requirements.txt 
 ENV PORT=8080
