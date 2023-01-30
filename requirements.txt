@@ -2,3 +2,10 @@ altair
 pandas
 streamlit
 google-cloud.storage
+google-cloud-bigquery==2.34.3
+google-cloud-bigquery-storage==2.17.0
+google-cloud-storage==2.7.0
+google-auth==2.15.0
+google-auth-oauthlib==0.8.0
+db-dtypes
+db.py
