@@ -11,7 +11,7 @@ import numpy as np
 
 # Construct a BigQuery client object.
 
-storage_credentials = service_account.Credentials.from_service_account_file('ensai-2023-373710-a9a3d886cdd7.json')
+storage_credentials = service_account.Credentials.from_service_account_file('ensai-2023-373710-216f5609f399.json')
 client = bigquery.Client(credentials=storage_credentials)
 """
 # La SNCF Toujour en retard ? :train:
